@@ -1,2 +1,3 @@
 FROM ubuntu:18.04
-COPY ./test /
+RUN apt update
+RUN apt upgrade
